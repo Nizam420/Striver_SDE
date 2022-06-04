@@ -1,6 +1,6 @@
-import java.util.*;
+// import java.util.*;
 class Solution {
-    public void setZeroes(int[][] matrix) {
+    public static void setZeroes(int[][] matrix) {
         int col0 = 1;
         int row = matrix.length;
         int col = matrix[0].length;

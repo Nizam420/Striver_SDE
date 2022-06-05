@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 class Solution {
     public int[][] merge(int[][] intervals) {
         List<int[]> res = new ArrayList<>();

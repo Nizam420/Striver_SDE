@@ -24,3 +24,6 @@ class Solution {
         return false;
     }
 }
+
+// Time Complexity: O(log(M*N)) 
+// Space Complexity:O(1)

@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         int nums1 = -1;

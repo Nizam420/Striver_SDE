@@ -29,3 +29,7 @@ public class Countsubarraysgivenxor {
         return cnt;
 	}
 }
+
+// Time Complexity: O(NlogN)
+
+// Space Complexity: O(N)

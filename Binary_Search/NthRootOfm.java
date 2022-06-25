@@ -31,3 +31,7 @@ public class NthRootOfm {
         getNthRoot(n, m);
     }
 }
+
+// Time Complexity: N x log(M x 10^d)
+
+// Space Complexity: O(1)

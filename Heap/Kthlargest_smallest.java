@@ -8,7 +8,7 @@ class Solution {
 
         int n = arr.length;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < n; i++) {
             pq.add(arr[i]);
         }
 

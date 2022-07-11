@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 class Solution 
 {
-    public static void find(int level, TreeNode<Integer> root, ArrayList<Integer> ans){
+    public static void find(int level, Node root, ArrayList<Integer> ans){
         if (root == null){
             return;
         }
@@ -10,7 +12,7 @@ class Solution
         find(level + 1, root.left, ans);
         find(level + 1, root.right, ans);
     }
-    public static ArrayList<Integer> getLeftView(TreeNode<Integer> root) 
+    public static ArrayList<Integer> getLeftView(Node root) 
     {
         ArrayList<Integer> ans = new ArrayList<>();
         find(0, root, ans);

@@ -12,9 +12,9 @@ class Solution {
         int left = Math.max(0, pathSum(root.left, maxVal));
         int right = Math.max(0, pathSum(root.right, maxVal));
         
-        maxVal[0] = Math.max(maxVal[0], left + right + root.val);
+        maxVal[0] = Math.max(maxVal[0], left + right + root.data);
         
-        return Math.max(left, right) + root.val;
+        return Math.max(left, right) + root.data;
     }
 }
 

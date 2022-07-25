@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main
+class Main
 {
 	static int maxProductSubArray(int arr[]) {
     int prod1 = arr[0],prod2 = arr[0],result = arr[0];
